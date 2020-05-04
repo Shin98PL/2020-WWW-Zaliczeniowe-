@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Quiz</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body onload="queMaker()">
+    <header>Quizy</header>
+
+    <fieldset>
+        <div id="intro"></div>
+        <div id="zegar"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Pytanie</legend>
+        <div id="pytanie"></div>
+        <div id="kara"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Podpowiedz</legend>
+        <button type="button" id="hinter" onclick="clickHint()">Pokaż</button>
+        <div id="hint"></div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Odpowiedź</legend>
+        <button type="button" id="prevQue" onclick="prevClick()">Poprzednie</button>
+        <input id="odp" type="text" placeholder="Wpisz liczbę">
+        <button type="button" id="nextQue" onclick="nextClick()">Następne</button>
+        <div id="komunikat"></div>
+    </fieldset>
+    
+    <section>
+        <button type="button" id="cancel" onclick="cancelQuiz()">Anuluj</button>
+        <button type="button" id="ender" onclick="stopper()">STOP</button>
+    </section>
+</body> 
+
+</html>

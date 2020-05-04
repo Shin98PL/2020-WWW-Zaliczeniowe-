@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Quizy</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body onload="mainPageFun()">
+    <header>Quizy</header>
+
+    <section class="stBut">
+        <form action="quizer.html">
+            <button id="start" onclick="starter()" type="submit" >Rozpocznij</button>
+         </form>
+    </section>
+    
+    <fieldset>
+        <b>Przed tobą 5 trudnych pytań. <br>
+        Sprawdź swoją wiedze i umiejętności. <br>
+        Naciśnij zielony przycisk i pokaż, jak świetny jesteś z matematyki.<br>
+        Twoim wynikiem będzie twój perfekcyjny czas.</b>
+    </fieldset>
+
+    <fieldset>
+        <legend>Wyniki</legend>
+        <div id="lista"></div>
+    </fieldset>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+	
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "outFile":"./main.js",
+    "removeComments":true
+  },
+  "files": [
+      "testFiles.ts",
+      "indexer.ts",
+      "quizer.ts",
+      "finish.ts",
+      "raport.ts",
+      "main.ts"
+  ],
+  "compileOnSave": true,
+  "buildOnSave": true
+}

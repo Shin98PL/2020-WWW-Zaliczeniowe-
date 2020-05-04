@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://t4.ftcdn.net/jpg/02/69/09/69/240_F_269096915_ZdBDh5VK5b4moAzWWLJceXRNTA5ECJXc.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+header{
+    color: green;
+    width: 100%;    
+    font-size: 70px;
+    padding-bottom: 35px;
+}
+
+fieldset{
+    margin-bottom: 20px;
+}
+
+legend{
+    font-weight: bold;
+}
+
+input, button {
+    padding: 7px;
+    height: 40px;
+}
+
+table, th, td, tr {
+    font-weight: 100;
+    background-color: white;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 12px;
+}
+
+#zegar 
+{
+    font-weight: bold;
+}
+
+#start
+{
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+#ender
+{
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.stBut
+{
+    padding-bottom: 17px;
+}
